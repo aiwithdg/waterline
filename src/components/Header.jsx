@@ -30,7 +30,7 @@ export default function Header() {
     <header className="site-header" ref={rootRef}>
       <div className="site-header__inner container">
         <a className="site-header__mark" href="#top" onClick={() => setOpen(false)}>
-          Waterline
+          Maritime
         </a>
 
         <button

@@ -46,7 +46,7 @@ export default function Sidebar() {
   return (
     <nav className="sidebar" aria-label="Chapters">
       <a className="sidebar__mark" href="#top">
-        Waterline
+        Maritime
       </a>
       <ol className="sidebar__list">
         {CHAPTERS.map((c, i) => (
