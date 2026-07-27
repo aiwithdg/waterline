@@ -4,6 +4,7 @@ const LINKS = [
   { href: "#overview", label: "Overview" },
   { href: "#anatomy", label: "Anatomy of a Port" },
   { href: "#governance", label: "Governance" },
+  { href: "#stakeholders", label: "Stakeholders" },
 ];
 
 export default function Header() {
