@@ -1,0 +1,96 @@
+.governance {
+  padding: clamp(3rem, 8vh, 5.5rem) 0;
+  background: var(--paper-alt);
+}
+
+.governance__heading {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin: 0.5em 0 0.5em;
+}
+
+.governance__lede {
+  font-size: 1.1rem;
+  max-width: 66ch;
+  margin-bottom: 2.5rem;
+}
+
+.governance__subhead {
+  font-size: 1.3rem;
+  margin: 2.75rem 0 1rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.governance__subhead:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.governance__note {
+  max-width: 66ch;
+  margin-bottom: 1.5rem;
+}
+
+.governance__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.governance__card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.governance__card h4 {
+  font-size: 1.15rem;
+  margin: 0.5em 0 0.5em;
+  text-transform: none;
+}
+
+.governance__card p {
+  font-size: 0.96rem;
+  margin-bottom: 0;
+}
+
+.governance__table-wrap {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.governance__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+  min-width: 640px;
+}
+
+.governance__table th,
+.governance__table td {
+  text-align: left;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.governance__table th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-alt);
+}
+
+.governance__table tr:last-child td {
+  border-bottom: none;
+}
+
+.governance__table td:first-child {
+  color: var(--navy);
+  font-weight: 600;
+}
