@@ -12,6 +12,9 @@ const LINKS = [
   { href: "#behind-the-scenes", label: "Behind the Scenes" },
   { href: "#technology", label: "Technology" },
   { href: "#environment", label: "Environment" },
+  { href: "#schemes", label: "Schemes" },
+  { href: "#working-with-ports", label: "Working With Ports" },
+  { href: "#quick-reference", label: "Reference" },
 ];
 
 export default function Header() {

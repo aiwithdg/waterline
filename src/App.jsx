@@ -10,6 +10,9 @@ import Metrics from "./components/Metrics";
 import BehindTheScenes from "./components/BehindTheScenes";
 import Technology from "./components/Technology";
 import Environment from "./components/Environment";
+import Schemes from "./components/Schemes";
+import WorkingWith from "./components/WorkingWith";
+import QuickReference from "./components/QuickReference";
 
 function App() {
   return (
@@ -27,8 +30,10 @@ function App() {
         <BehindTheScenes />
         <Technology />
         <Environment />
-        {/* Next chapters (Schemes, Working With Ports, Quick Reference,
-            Beyond India) will be added here one at a time. */}
+        <Schemes />
+        <WorkingWith />
+        <QuickReference />
+        {/* Next: Beyond India (global comparison). */}
       </main>
     </>
   );
