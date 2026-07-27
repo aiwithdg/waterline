@@ -9,6 +9,7 @@ const LINKS = [
   { href: "#cargo", label: "Cargo Types" },
   { href: "#container-journey", label: "Follow a Container" },
   { href: "#metrics", label: "Charges & Metrics" },
+  { href: "#behind-the-scenes", label: "Behind the Scenes" },
 ];
 
 export default function Header() {
