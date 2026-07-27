@@ -1,0 +1,118 @@
+.tech {
+  padding: clamp(3rem, 8vh, 5.5rem) 0;
+  background: var(--paper);
+}
+
+.tech__heading {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin: 0.5em 0 0.5em;
+}
+
+.tech__lede {
+  font-size: 1.1rem;
+  max-width: 66ch;
+  margin-bottom: 2.5rem;
+}
+
+.tech__subhead {
+  font-size: 1.3rem;
+  margin: 2.75rem 0 1.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.tech__subhead:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.tech__table-wrap {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.tech__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  min-width: 680px;
+}
+
+.tech__table th,
+.tech__table td {
+  text-align: left;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.tech__table th {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-alt);
+}
+
+.tech__table tr:last-child td {
+  border-bottom: none;
+}
+
+.tech__table td:first-child {
+  color: var(--navy);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tech__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.tech__card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.25rem 1.4rem 1.5rem;
+}
+
+.tech__share {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--oxide-dark);
+  margin-bottom: 0.5rem;
+}
+
+.tech__card h4 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5em;
+  text-transform: none;
+}
+
+.tech__card p {
+  font-size: 0.92rem;
+  margin-bottom: 0;
+}
+
+.tech__callout {
+  margin-top: 3rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.tech__callout .eyebrow {
+  color: var(--paper);
+  opacity: 0.7;
+}
+
+.tech__callout p {
+  color: var(--paper);
+  margin: 0.75rem 0 0;
+  max-width: 68ch;
+}

@@ -10,6 +10,8 @@ const LINKS = [
   { href: "#container-journey", label: "Follow a Container" },
   { href: "#metrics", label: "Charges & Metrics" },
   { href: "#behind-the-scenes", label: "Behind the Scenes" },
+  { href: "#technology", label: "Technology" },
+  { href: "#environment", label: "Environment" },
 ];
 
 export default function Header() {
