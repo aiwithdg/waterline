@@ -7,6 +7,7 @@ const LINKS = [
   { href: "#stakeholders", label: "Stakeholders" },
   { href: "#ship-call", label: "Ship Call" },
   { href: "#cargo", label: "Cargo Types" },
+  { href: "#container-journey", label: "Follow a Container" },
 ];
 
 export default function Header() {
