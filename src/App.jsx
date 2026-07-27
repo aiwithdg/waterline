@@ -6,6 +6,7 @@ import Stakeholders from "./components/Stakeholders";
 import ShipCall from "./components/ShipCall";
 import Cargo from "./components/Cargo";
 import Container from "./components/Container";
+import Metrics from "./components/Metrics";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <ShipCall />
         <Cargo />
         <Container />
-        {/* Next chapters (Charges & Metrics, Behind the Scenes, ...)
+        <Metrics />
+        {/* Next chapters (Behind the Scenes, Technology & Hinterland, ...)
             will be added here one at a time. */}
       </main>
     </>

@@ -1,0 +1,120 @@
+.metrics {
+  padding: clamp(3rem, 8vh, 5.5rem) 0;
+  background: var(--paper);
+}
+
+.metrics__heading {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin: 0.5em 0 0.5em;
+}
+
+.metrics__lede {
+  font-size: 1.1rem;
+  max-width: 66ch;
+  margin-bottom: 2.5rem;
+}
+
+.metrics__subhead {
+  font-size: 1.3rem;
+  margin: 2.75rem 0 1.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.metrics__subhead:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.metrics__table-wrap {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.metrics__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+  min-width: 560px;
+}
+
+.metrics__table th,
+.metrics__table td {
+  text-align: left;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.metrics__table th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-alt);
+}
+
+.metrics__table tr:last-child td {
+  border-bottom: none;
+}
+
+.metrics__table td:first-child {
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.metrics__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.metrics__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.4rem 1.5rem;
+}
+
+.metrics__value {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--oxide);
+}
+
+.metrics__label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.metrics__unit {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+
+.metrics__callout {
+  margin-top: 3rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--navy);
+  border-radius: 8px;
+}
+
+.metrics__callout .eyebrow {
+  color: var(--paper);
+  opacity: 0.7;
+}
+
+.metrics__callout p {
+  color: var(--paper);
+  margin: 0.75rem 0 0;
+  max-width: 68ch;
+}

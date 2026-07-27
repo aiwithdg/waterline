@@ -8,6 +8,7 @@ const LINKS = [
   { href: "#ship-call", label: "Ship Call" },
   { href: "#cargo", label: "Cargo Types" },
   { href: "#container-journey", label: "Follow a Container" },
+  { href: "#metrics", label: "Charges & Metrics" },
 ];
 
 export default function Header() {

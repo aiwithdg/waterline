@@ -9,11 +9,14 @@
 .site-header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: clamp(1.25rem, 4vw, 3rem);
   height: 60px;
 }
 
 .site-header__mark {
+  flex: none;
+  margin-right: auto;
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 600;
@@ -25,7 +28,19 @@
 
 .site-header__nav {
   display: flex;
-  gap: clamp(1rem, 3vw, 2.25rem);
+  gap: clamp(0.85rem, 2.4vw, 2rem);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  min-width: 0;
+}
+
+.site-header__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.site-header__nav a {
+  white-space: nowrap;
 }
 
 .site-header__nav a {
