@@ -1,0 +1,106 @@
+.shipcall {
+  padding: clamp(3rem, 8vh, 5.5rem) 0;
+  background: var(--paper-alt);
+}
+
+.shipcall__heading {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin: 0.5em 0 0.5em;
+}
+
+.shipcall__lede {
+  font-size: 1.1rem;
+  max-width: 66ch;
+  margin-bottom: 2.5rem;
+}
+
+.shipcall__subhead {
+  font-size: 1.3rem;
+  margin: 2.5rem 0 1.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.shipcall__subhead:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.shipcall__timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.shipcall__timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.9rem;
+  bottom: 0.9rem;
+  left: 17px;
+  width: 1px;
+  background: var(--line);
+}
+
+.shipcall__stage {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 0 2.25rem;
+}
+
+.shipcall__stage:last-child {
+  padding-bottom: 0;
+}
+
+.shipcall__stage-num {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.shipcall__stage-body {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.1rem 1.5rem 1.4rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.shipcall__stage-body h4 {
+  font-size: 1.2rem;
+  margin: 0.4em 0 0.5em;
+  text-transform: none;
+}
+
+.shipcall__stage-body p {
+  font-size: 0.98rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .shipcall__timeline::before {
+    left: 15px;
+  }
+  .shipcall__stage {
+    gap: 1rem;
+  }
+  .shipcall__stage-num {
+    width: 30px;
+    height: 30px;
+    font-size: 0.78rem;
+  }
+}

@@ -1,0 +1,63 @@
+.cargo {
+  padding: clamp(3rem, 8vh, 5.5rem) 0;
+  background: var(--paper);
+}
+
+.cargo__heading {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin: 0.5em 0 0.5em;
+}
+
+.cargo__lede {
+  font-size: 1.1rem;
+  max-width: 66ch;
+  margin-bottom: 2.5rem;
+}
+
+.cargo__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+
+.cargo__card {
+  position: relative;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.5rem 1.5rem 1.75rem;
+}
+
+.cargo__letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  margin-bottom: 0.9rem;
+}
+
+.cargo__card h3 {
+  font-size: 1.25rem;
+  margin: 0 0 0.35em;
+  text-transform: none;
+}
+
+.cargo__stat {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: var(--oxide-dark);
+  margin-bottom: 0.75rem;
+}
+
+.cargo__card p {
+  font-size: 0.96rem;
+  margin-bottom: 0;
+}
