@@ -6,6 +6,12 @@
   border-bottom: 1px solid rgba(250, 246, 238, 0.1);
 }
 
+@media (min-width: 1080px) {
+  .site-header {
+    display: none;
+  }
+}
+
 .site-header__inner {
   display: flex;
   align-items: center;

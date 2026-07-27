@@ -115,3 +115,13 @@ a {
 section {
   scroll-margin-top: 80px;
 }
+
+@media (min-width: 1080px) {
+  .site-main {
+    margin-left: 260px;
+  }
+
+  section {
+    scroll-margin-top: 24px;
+  }
+}

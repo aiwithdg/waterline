@@ -1,0 +1,16 @@
+export const CHAPTERS = [
+  { href: "#overview", label: "Overview" },
+  { href: "#anatomy", label: "Anatomy of a Port" },
+  { href: "#governance", label: "Governance & Regulators" },
+  { href: "#stakeholders", label: "Stakeholders" },
+  { href: "#ship-call", label: "The Life of a Ship Call" },
+  { href: "#cargo", label: "Six Kinds of Cargo" },
+  { href: "#container-journey", label: "Follow a Container" },
+  { href: "#metrics", label: "Charges & Metrics" },
+  { href: "#behind-the-scenes", label: "Behind the Scenes" },
+  { href: "#technology", label: "Technology & Hinterland" },
+  { href: "#environment", label: "Environment & Green Ports" },
+  { href: "#schemes", label: "Schemes & Programs" },
+  { href: "#working-with-ports", label: "Working With Ports" },
+  { href: "#quick-reference", label: "Quick Reference" },
+];

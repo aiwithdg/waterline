@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 import Hero from "./components/Hero";
 import Anatomy from "./components/Anatomy";
 import Governance from "./components/Governance";
@@ -18,7 +19,8 @@ function App() {
   return (
     <>
       <Header />
-      <main id="top">
+      <Sidebar />
+      <main id="top" className="site-main">
         <Hero />
         <Anatomy />
         <Governance />
